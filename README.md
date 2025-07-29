@@ -37,15 +37,11 @@ Aplicación web construida con **React**, **Vite** y **Tailwind CSS**, que consu
    cd api-Rick-y-morty-React
 Instala las dependencias:
 
-bash
-Copiar
-Editar
+
 npm install
 Ejecuta el servidor de desarrollo:
 
-bash
-Copiar
-Editar
+
 npm run dev
 Abre http://localhost:5173 en tu navegador.
 
@@ -53,9 +49,7 @@ Abre http://localhost:5173 en tu navegador.
 Este proyecto usa el plugin oficial @tailwindcss/vite, una alternativa moderna que simplifica la integración con Vite sin necesidad de configurar postcss.config.js ni tailwind.config.js.
 
 📥 Instalación
-bash
-Copiar
-Editar
+
 npm install tailwindcss @tailwindcss/vite
 ⚙️ Configuración de vite.config.js
 js
@@ -68,16 +62,12 @@ export default defineConfig({
   plugins: [tailwindcss()],
 });
 🎨 Importación de estilos en index.css
-css
-Copiar
-Editar
+
 @import "tailwindcss";
 🔎 Este método es válido para prototipos y proyectos simples. Si necesitas personalizar el tema de Tailwind, se recomienda usar la configuración clásica con tailwind.config.js.
 
 📁 Estructura del proyecto
-css
-Copiar
-Editar
+ 
 src/
 ├── components/       → Componentes reutilizables (CharacterCard)
 ├── pages/            → Vistas principales (Home)

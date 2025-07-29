@@ -82,8 +82,10 @@ src/
 ├── components/       → Componentes reutilizables (CharacterCard)
 ├── pages/            → Vistas principales (Home)
 ├── services/         → Lógica de llamadas a APIs
+├── styles/           → Estilos globales con Tailwind
 ├── App.jsx           → Componente principal
 └── main.jsx          → Punto de entrada de la aplicación
+
 🌐 Sobre la API utilizada
 API pública sin autenticación
 
@@ -120,9 +122,7 @@ Paginación de resultados
 
 Detalles individuales por personaje
 
-Modo oscuro o cambio de tema
-
-Integración de favoritos con localStorage
+Indicador de carga (Loader) mientras se obtienen los datos
 
 📸 Captura de pantalla
 Aquí puedes incluir una imagen alojada en src/assets/screenshot.png o subirla al README vía GitHub.
